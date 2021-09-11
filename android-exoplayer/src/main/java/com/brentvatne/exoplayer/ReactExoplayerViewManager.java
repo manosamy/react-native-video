@@ -338,7 +338,8 @@ public class ReactExoplayerViewManager extends ViewGroupManager<ReactExoplayerVi
                 || uriString.startsWith("https://")
                 || uriString.startsWith("content://")
                 || uriString.startsWith("file://")
-                || uriString.startsWith("asset://");
+                || uriString.startsWith("asset://")
+                || uriString.startsWith("data:");
     }
 
     private @ResizeMode.Mode int convertToIntDef(String resizeModeOrdinalString) {
