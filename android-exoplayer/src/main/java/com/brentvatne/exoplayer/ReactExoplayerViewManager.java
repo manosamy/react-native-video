@@ -339,6 +339,7 @@ public class ReactExoplayerViewManager extends ViewGroupManager<ReactExoplayerVi
                 || uriString.startsWith("content://")
                 || uriString.startsWith("file://")
                 || uriString.startsWith("asset://")
+                || uriString.startsWith("udp://")
                 || uriString.startsWith("data:");
     }
 
